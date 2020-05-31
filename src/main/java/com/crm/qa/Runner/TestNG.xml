@@ -1,0 +1,22 @@
+<suite name = "FreeCRMApplicationTest">
+    <listeners>
+        <listener class-name="com.crm.qa.util.ExtentReportListerner" />
+    </listeners>
+    <test name = "LoginPage">
+        <classes>
+            <class name ="com.crm.qa.TestCases.LoginTest"></class>
+        </classes>
+    </test>
+
+    <test name = "HomePage">
+        <classes>
+            <class name ="com.crm.qa.TestCases.HomePageTest"></class>
+        </classes>
+    </test>
+    <test name = "contactTestforcrm">
+        <classes>
+            <class name ="com.crm.qa.TestCases.ContactTest"></class>
+        </classes>
+    </test>
+
+</suite>
